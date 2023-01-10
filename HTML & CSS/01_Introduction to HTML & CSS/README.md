@@ -1,5 +1,5 @@
 # Resources
-## VS Code Keybord shortcuts for Windows
+### VS Code Keybord shortcuts for Windows
  - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
-## Emmet Documentation
+### Emmet Documentation
  - https://docs.emmet.io/cheat-sheet/
