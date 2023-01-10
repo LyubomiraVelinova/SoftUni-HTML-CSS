@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Welcome world 1</h1>
-    <h2>Welcome world 2</h2>
+    <h2 id="SecondaryTitle">Welcome world 2</h2>
     <h3>Welcome world 3</h3>
     <h4>Welcome world 4</h4>
     <h5>Welcome world 5</h5>
     <h6>Welcome world 6</h6>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam ipsa, dolor beatae nam repudiandae delectus facere nihil sapiente. Molestiae, veniam cumque porro nemo inventore pariatur quaerat ipsam corrupti odit.</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ullam ipsa, dolor beatae nam repudiandae delectus facere nihil sapiente. Molestiae, veniam cumque porro nemo inventore pariatur quaerat ipsam corrupti odit.</p>
     <a href="https://github.com/simeon-petrov-5/SoftUni-HTML-CSS-Jan-2023/blob/main/Resources.md">First Link></a>
     <img src="apple-day-keeps-doctor-away-600w-1915554880.webp" alt="Apple image">
     
@@ -28,10 +29,16 @@
         <li>Two</li>
         <li>Three</li>
     </ol>
-    <ul type="None">
-        <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
+    <ul>
+        <li class="item">First item</li>
+        <li class="item">
+            <p class="orderedText">Lorem, ipsum dolor.</p>
+            <ol>
+                <li>Nested LIST ITEM</li>
+                <li>Nested LIST ITEM</li>
+            </ol>
+            Second item</li>
+        <li class="item">Third item</li>
     </ul>
     <dl>
         <dt>HTML</dt>
