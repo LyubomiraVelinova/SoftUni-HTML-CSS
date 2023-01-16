@@ -1,0 +1,26 @@
+body {
+    Margin: 0;
+    Padding: 0;
+    background-color: #CCCCCC;
+}
+
+.container ul {
+    background-color: #444;
+    Padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.container li {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 40px;
+    Height: 40px;
+    Padding: 20px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #ffffff;
+}
