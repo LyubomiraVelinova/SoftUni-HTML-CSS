@@ -1,0 +1,12 @@
+.lorem {
+    font-size: 21px;
+    color: red;
+}
+
+.undorder>.ul-item lorem {
+    color: aliceblue;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
