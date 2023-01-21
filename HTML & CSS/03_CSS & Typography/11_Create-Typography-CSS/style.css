@@ -20,8 +20,31 @@ ul ul ul {
     list-style: circle;
 }
 
-table thead {
-    background-color: lightgrey;
-    text-align: left;
-    
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
 }
+
+table thead {
+    background-color: lightgray;
+    text-align: left; 
+}
+
+table th,table td {
+    border: 1px solid lightgray;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: rgb(240, 238, 238);
+}
+
+blockquote {
+    border-left: rgb(221,221,221);
+    font-style: italic;
+}
+
+blockquote p.author {
+    text-align: right;
+}
+
