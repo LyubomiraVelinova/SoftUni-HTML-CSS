@@ -1,0 +1,13 @@
+body {
+    padding: 5rem;
+    background-color: #eee;
+}
+
+ul {
+    display: list-item;
+}
+
+li {
+    display: none;
+}
+
