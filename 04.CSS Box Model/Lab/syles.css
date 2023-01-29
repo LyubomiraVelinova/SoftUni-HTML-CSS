@@ -1,5 +1,7 @@
 body {
     background-color: lightgray;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -10,7 +12,7 @@ h1 {
 /* Card component */
 
 .card {
-    width: 320px;
+    width: 360px;
     border: 2px solid black;
     border-radius: 6px;
     overflow: hidden;
@@ -35,16 +37,42 @@ h1 {
 
 .content {
     padding: 12px 22px;
+    text-align: center;
 }
 
 .content__title {
     font-size: 21px;
     margin-bottom: 6px;
-    text-align: center;
 }
 
 .content__badge {
-    background-color: yellow;
-    color: ;
-    text-align: center;
+    display: inline-block;
+    padding: 4px 16px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    background-color: rgb(255, 255, 179);
+    color: rgb(235, 187, 54);
 }
+
+.content__section-tittle {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: gray;
+}
+
+ul.content__projects {
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 6px;
+    text-align: left;
+}
+
+.project {
+    background-color: lightgrey;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 2px 6px; 
+    margin-right: 4px;
+}
+

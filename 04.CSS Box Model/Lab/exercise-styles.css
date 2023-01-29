@@ -1,0 +1,14 @@
+div {
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 24px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 18px;
+    border-top-left-radius: 24px;
+    border-left:1px solid green;
+    border-bottom: 1px dashed blue;
+}
