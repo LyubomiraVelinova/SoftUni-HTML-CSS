@@ -23,25 +23,27 @@ body {
 
 .idol__resume {
     padding-top: calc((380px - 240px)/2);
+    padding-bottom: calc((380px - 240px)/2);
     font-size: 24px;
     display: inline-block;
     text-align: justify;
-    width: 380px;
-    height: 240px;
 }
 
 h2 {
     font-size: 32px;
     font-weight: bold;
-    padding: 20px;
+    padding-bottom: 24px;
     text-decoration: underline;
     color:#6A6A6A;
+    text-align: center;
 }
 
 .container {
     box-shadow: 20px 20px 20px  rgb(239, 240, 169);
     font-size: 28px;
     background-color:  #90ee90;
+    padding: 50px 24px;
+    text-align: justify;
 }
 
 .container__characteristic:not(:last-child) {
