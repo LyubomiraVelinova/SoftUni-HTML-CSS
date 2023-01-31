@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 100px 200px;
+    gap: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    background-color: bisque;
+    padding-left: 12px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header {
+    background-color: lightcyan;
+    padding-left: 12px;
+}
+
+nav {
+    background-color: lightpink;
+}
+
+nav a {
+    display: block;
+    padding: 12px;
+}
+
+main {
+    background-color: lightgreen;
+    padding-left: 12px;
+}

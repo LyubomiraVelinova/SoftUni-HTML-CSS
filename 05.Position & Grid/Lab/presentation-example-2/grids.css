@@ -1,0 +1,40 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "main main empty sidebar"
+    "footer footer footer footer";
+    text-align: center;
+    font-size: 16px;
+    gap: 1px;
+}
+
+header {
+    background-color: orange;
+    grid-area: header;
+    border-radius: 10px;
+}
+
+main {
+    background-color: lightblue;
+    grid-area: main;
+    border-radius: 10px;
+}
+
+.empty {
+    background-color: antiquewhite;
+    grid-area: empty;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: rgb(238, 127, 127);
+    grid-area: sidebar;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(126, 182, 126);
+    grid-area: footer;
+    border-radius: 10px;
+}

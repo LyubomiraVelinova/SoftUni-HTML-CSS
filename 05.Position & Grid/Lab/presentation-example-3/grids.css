@@ -1,0 +1,40 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav main"
+    "footer footer";
+    gap: 10px;
+    margin: 24px;
+}
+
+header {
+    background-color: rgb(160, 206, 243);
+    grid-area: header;
+    padding-left: 12px;
+}
+
+nav {
+    background-color: rgb(160, 206, 243);
+    grid-area: nav;
+    padding-left: 12px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+main {
+    background-color: rgb(160, 206, 243);
+    grid-area: main;
+    padding-left: 12px;
+}
+
+footer {
+    background-color: rgb(160, 206, 243);
+    grid-area: footer;
+    padding-left: 12px;
+}
