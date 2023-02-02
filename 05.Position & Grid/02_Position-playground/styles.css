@@ -1,0 +1,8 @@
+.viewport {
+    background-color: aqua;
+} 
+
+img {
+    display: block;
+    position: absolute;
+}
