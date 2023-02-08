@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    background-color: lightgray;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+li {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 450px;
+    border: 5px solid black;
+    background-color: white;
+    box-sizing: border-box;
+}
