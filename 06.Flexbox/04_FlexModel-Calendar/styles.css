@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -41,6 +41,34 @@
 }
 
 .container .notes .item {
-    /* width: 100%; */
     flex: 1 1 100%; 
+} */
+
+/* GRID Example */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr) 25%;
+    grid-template-rows: repeat(4, 50px);
+    /* gap: 1px; */
+}
+
+.container .item {
+    display: block; 
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.container .item {
+    grid-column: span 2;
+}
+
+.container .item:nth-child(1),
+.container .item:nth-child(8) {
+    grid-column: 1/span 10;
+}
+
+.container .item:nth-child(2) {
+    grid-column: 11;
+    grid-column: 1 / span 2;
 }

@@ -1,0 +1,45 @@
+/* bg - #070e27
+ */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #070e27;
+    color: white;
+  }
+
+  .header {
+    padding: 16px 64px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid gray;
+    position: sticky;
+    top: 0px;
+  }
+
+.header .navigation {
+  margin-left: auto;
+  margin-right: 24px;
+}
+
+  .header .nav-list {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+  }
+
+  .header .nav-list a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .header .login-btn {
+    background-color: hsl(218deg 100% 48%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 20px;
+    cursor: pointer;
+  }

@@ -1,0 +1,35 @@
+body {
+    
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+    text-overflow: ellipsis;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 12px;
+    cursor:all-scroll;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+main {
+    margin: 12px;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color:rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    justify-content: flex-end;
+    padding: 12px;
+}
