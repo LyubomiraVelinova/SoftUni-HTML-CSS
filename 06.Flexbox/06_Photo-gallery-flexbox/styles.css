@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     background-color: lightgray;
@@ -20,5 +24,8 @@ li {
     height: 450px;
     border: 5px solid black;
     background-color: white;
-    box-sizing: border-box;
+}
+
+img {
+    width: 80%;
 }

@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(238, 238, 238);
+    /* font-size: 0px; */
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header p {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.page section .img img {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.blockquotes {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.blockquotes .first-p {
+    flex: 1 1 50%;
+}
+
+.page h1,
+.page h2, 
+.page h3 {
+    font-family: Georgia, serif;
+}
+
+.page .section blockquote {
+    font-family: Georgia, serif;
+}
+
+section,
+aside {
+    font-size: 16px;
+}
+
+main {
+    display: block;
+    width: 70%;
+}
+
+aside {
+    width: 25%;
+    justify-content: flex-end;
+}
+
+.page section .img img:nth-child(1) {
+    float: right;
+}
+
+.page section .img img:nth-child(2) {
+    float: left;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
