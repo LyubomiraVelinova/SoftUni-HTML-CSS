@@ -6,7 +6,9 @@ body {
 
 header {
     display: flex;
-    border-bottom: 2px solid rgb(0, 0, 0);
+    border-bottom-width: 2px;
+    border-bottom-color:  rgb(0, 0, 0);
+    border-bottom-style:  solid;
 }
 
 header>p {
