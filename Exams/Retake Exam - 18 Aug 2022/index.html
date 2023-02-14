@@ -8,35 +8,35 @@
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish&display=swap"> -->
 </head>
 <body>
-    <div><img src="images/background.png" alt=""></div>
-    <form action="">
-        <div class="img"><img src="images/form-background.png" alt=""></div>
-        <div class="registration">
-            <h1>Registration Form</h1>
-            <label for="">First Name</label><br>
-            <input class="registration__input" type="text"><br>
-    
-            <label for="">Last Name</label><br>
-            <input class="registration__input"  type="text"><br>
-    
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form class="registration" action="">
+            <div class="name">
+                <label for="">First Name</label><br>
+                <input class="registration__input" type="text"><br>
+            
+                <label for="">Last Name</label><br>
+                <input class="registration__input"  type="text">
+            </div>
+            <!-- <br> -->
             <label for="">Email</label><br>
             <input class="registration__input"  type="email"><br>
-    
+        
             <label for="">Password</label><br>
             <input class="registration__input"  type="password"><br>
-    
-            
+        
             <label for="">Confirm Password</label><br>
             <input class="registration__input"  type="password"><br>
-    
+        
             <input class="registration__input"  type="checkbox">
             <label for="">I accept the Terms of Use & Privacy Policy.</label><br>
-            
-            <button>Register Now</button>
-        </div>
-        
-    </form>
+                
+            <button type="submit">REGISTER NOW</button>
+        </form>
+    </div>
+    
 </body>
 </html>
