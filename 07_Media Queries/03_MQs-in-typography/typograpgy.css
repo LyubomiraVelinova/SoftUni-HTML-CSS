@@ -1,0 +1,122 @@
+body {
+    margin: 0% 7% 2% 7%;
+    background-color: rgb(238, 238, 238);
+}
+
+header > p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#inline-block {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 0px;
+}
+
+blockquote {
+    display: inline-block;
+    width: 30%;
+    font-family: Georgia, serif;
+    font-style: italic;
+    border-left: 3px solid gray;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    color: gray;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+blockquote > p:last-child {
+    margin-top: 20px;
+    text-align: right;
+} 
+
+h1,h2,h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+img {
+    border: 3px solid black;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.first-photo {
+    float: right;
+    width: 15%;
+    margin: 0px 0px 16px 16px;
+}
+
+.second-photo {
+    float: left;
+    width: 20%;
+    margin: 0px 16px 18px 0px;
+}
+
+@media (max-width:500px) {
+    body {
+        font-size: 12px;
+    }
+
+    .first-photo {
+        border: 1px solid black;
+        display: block;
+        float: none;
+        width: 55%;
+        margin: 5px 0px 16px 0px;
+    }
+
+    .second-photo {
+        border: 1px solid black;
+        display: block;
+        float: none;
+        width: 60%;
+        margin: 5px 0px 16px 0px;
+    }
+    
+    #inline-block {
+        display: block;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    blockquote {
+        display: block;
+        width: 80%;
+        border-left: 1px solid gray;
+        padding-bottom: 12px;
+    }
+}
+
+@media screen and (min-width:500px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    body {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width:1800px) {
+    body {
+        font-size: 23px;
+    }
+}
