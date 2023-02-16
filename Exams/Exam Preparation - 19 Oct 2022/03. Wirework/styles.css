@@ -1,0 +1,145 @@
+/* bg: rgb(56, 56, 56)
+orange: rgb(226, 78, 42)
+light-gray: rgb(236, 236, 236)
+work-text: rgb(44, 56, 59)
+gray-text: rgb(122, 122, 122)
+text in orange bg:rgb(245, 206, 192)
+gray text: rgb(81, 90, 97)
+gray-text on white bg: rgb(83, 83, 83)
+button: rgb(27, 151, 114)
+green text: rgb(93, 182, 151)*/
+
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(56, 56, 56);
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 0px 30px;
+    margin: auto;
+    background-color: white;
+}
+
+header h1 {
+    border-right: 1px solid rgb(122, 122, 122);
+    padding-right: 20px;
+}
+
+header h5 {
+    color: rgb(122, 122, 122);
+    font-weight: 600;
+    align-self: flex-end;
+}
+
+header ul {
+    display: flex;
+    gap: 2px;
+    margin-left: auto;
+}
+
+header .nav-btn {
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(236, 236, 236);
+    color: rgb(81, 90, 97);
+    padding: 12px;
+}
+
+/* MAIN */
+
+/* First container */
+
+.banner-container .details {
+    background-color: rgb(226, 78, 42);
+    color: rgb(245, 206, 192);
+    text-align: center;
+    padding: 40px 80px;
+}
+
+.banner-container .banner-img {
+    width: 100vw;
+}
+
+/* Second container */
+
+.icon-container {
+    padding: 50px 0px;
+}
+
+.icon-container ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    text-align: center;
+    padding: 30px;
+}
+
+.icon-container .element .fas {
+    background-color: rgb(226, 78, 42);
+    padding: 16px;
+    color: white;
+    font-size: 28px;
+}
+
+.icon-container .element .element-title {
+    color: white;
+    margin: 12px 0px;
+}
+
+.icon-container .element .element-desc {
+    color: rgb(81, 90, 97);
+    border-top: 1px solid rgb(81, 90, 97);
+    padding-top: 24px;
+}
+
+/* Third container */
+
+.white-container {
+    background-color: white;
+    padding: 40px 80px;
+    text-align: center;
+}
+
+.white-container .white-container-title {
+    color: rgb(85, 85, 85);
+}
+
+.white-container .white-container-text {
+    color: rgb(173, 165, 163);
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.white-container .white-container-btn {
+    background-color: rgb(27, 151, 114);
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    margin-top: 24px;
+}
+
+/* Forth container */
+
+.last-section  {
+    padding: 50px 0px;
+}
+
+.last-section .last-section-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(27, 151, 114);
+    padding: 60px 80px;
+    text-align: center;
+    color: rgb(93, 182, 151);
+}
