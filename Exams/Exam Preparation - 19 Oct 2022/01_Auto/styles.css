@@ -1,0 +1,64 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.section {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    /* margin: 24px 100px; */
+    /* font-size: 0px; */
+
+    gap: 24px;
+}
+
+.section .info, 
+.section .picture {
+    width: 50%;
+}
+
+.section .info .title {
+    margin-bottom: 32px;
+}
+
+.section .info .desc:first-of-type {
+    margin-bottom: 16px;
+}
+
+.section .info .desc:last-of-type {
+    margin-bottom: 32px;
+}
+
+.features {
+    margin: 0px;
+    padding: 0px;
+}
+
+.features .feature {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.features .feature:not(last-of-type) {
+    margin-bottom: 24px;
+}
+
+.features .feature .feature-icon {
+    width: 80px;
+}

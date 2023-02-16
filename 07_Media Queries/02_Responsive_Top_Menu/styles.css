@@ -1,0 +1,99 @@
+body {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+    gap: 10px;
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(181, 216, 255);
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+    padding-right: 24px;
+}
+
+header nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+header nav li {
+    display: inline;
+    list-style: none;
+}
+
+header nav li:not(last-child) {
+    padding-right: 50px;
+}
+
+header nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(53, 100, 153);
+    padding: 5px 15px;
+}
+
+aside {
+    grid-area: aside;
+    background-color: rgb(181, 216, 255);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+a {
+    display: block;
+    padding: 5px 0px;
+    color: rgb(86, 40, 129);
+    text-decoration: none;
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(181, 216, 255);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(181, 216, 255);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        grid-template-areas:
+        "header header"
+        "aside aside"
+        "main main"
+        "footer footer";
+    }
+
+    header nav a {
+        display: block;
+        padding-left: 5px;
+    }
+
+    header nav ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+}

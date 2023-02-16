@@ -56,7 +56,7 @@ img {
     margin: 0px 16px 18px 0px;
 }
 
-@media (max-width:500px) {
+@media screen and (max-width:300px) {
     body {
         font-size: 12px;
     }
