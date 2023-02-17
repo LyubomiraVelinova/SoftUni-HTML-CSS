@@ -1,0 +1,82 @@
+/* Global Styles */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(77, 77, 77);
+}
+
+.page-section {
+    max-width: 1880px;
+    margin: 1.5rem auto;
+    background-color: rgb(239, 239, 239);
+    height: calc(100vh - 1.5rem);
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* overflow: hidden; */
+}
+
+.page-section .section-info {
+    flex: 0 0 50%;
+}
+
+.page-section .section-img {
+    flex: 0 1 35%;
+}
+
+.page-section .title {
+    font-weight: normal;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.page-section .desc {
+    font-weight: italic;
+    margin-bottom: 2rem;
+}
+
+.page-section .divider.vertical {
+    height: 4rem;
+    width: 1px;
+    background-color: rgb(77, 77, 77);;
+}
+
+/* Hero */
+
+#hero.page-section {
+    position: relative;
+}
+
+#hero .navigation {
+    position: absolute;
+    top: -3rem;
+    right: -3rem;
+}
+
+#hero .hero-img {
+    position: absolute;
+    width: 50%;
+    bottom: 0px;
+    right: 5rem;
+}
+
+/* Gallery */
+
+#gallery {
+    display: flex;
+    align-items: flex-end;
+}
+
+#gallery .list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    gap: 0.5rem;
+}
+
+#gallery .list .picture:hover {
+    transform: scale(1.5);
+}
+
+
