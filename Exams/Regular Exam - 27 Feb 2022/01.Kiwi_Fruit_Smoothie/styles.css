@@ -2,39 +2,51 @@
 
 body {
     font-family: 'PT Serif', serif;
-}
-
-.main-container {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    font-size: 0px;
 }
 
 .card {
-    background-image: url(image/image1.png);
     display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 800px;
+    margin: 50px auto;
+    max-height: 100vh;
+    font-size: 16px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex: 50%;
+    background-image: url(image/image1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.container {
+.container,
+.img {
     width: 50%;
     flex-grow: 1;
     padding: 16px;
 }
 
-.img {
-    width: 50%;
-    padding: 16px;
-}
-
 .container h1 {
-    border-bottom: 1px dotted hsl(129deg 100% 25%);
+    border-bottom: 2px dotted hsl(129deg 100% 25%);
     text-align: center;
 }
 
 .portion-time {
+    font-style: italic;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    /* gap: 30px; */
+}
+
+.portion-time .time {
+    margin-left: auto;
 }
 
 .time {
@@ -42,12 +54,22 @@ body {
     margin-left: 30px;
 }
 
-/* .table, th, td {
+.container .receipe {
+    padding-left: 0px;
+}
+
+.container .receipe .colored {
+    color: hsl(129deg 100% 25%);
+    font-weight: bold;
+}
+
+.table, th, td {
     border: 1px solid hsl(129deg 100% 25%);
     border-collapse: collapse;
     text-align: center;
-} */
+}
 
 table {
+    width: 100%;
     margin-top: 30px;
 }

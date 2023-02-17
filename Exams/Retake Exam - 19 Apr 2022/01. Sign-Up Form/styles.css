@@ -1,0 +1,115 @@
+:root {
+    --form-text-color: rgb(204, 204, 204);
+}
+
+/* Main styling */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    width: 50%;
+    margin: 200px auto;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.left,
+.right {
+    flex: 1 1 50%;
+    height: 60vh;
+}
+
+/* Left container */
+
+.left {
+    background: linear-gradient(rgba(0, 0, 0, 0.792), rgba(0, 0, 0, 0.614));
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.left .header {
+    text-align: left;
+    padding: 18px;
+    z-index: 2;
+    position: relative;
+}
+
+.left .title {
+    font-size: 38px;
+    font-weight: lighter;
+    padding-top: 180px;
+    z-index: 2;
+    position: relative;
+}
+
+.left .subtitle {
+    font-size: 26px;
+    padding-bottom: 180px;
+    z-index: 2;
+    position: relative;
+}
+
+.left ul {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin: 20px auto;
+    z-index: 2;
+    position: relative;
+}
+
+
+/* Right container */
+
+.right form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+}
+
+.right label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #d6d6d6;
+}
+
+.right input {
+    border: none;
+    border-bottom: 1px solid #d2d2d2;
+    font-size: 14px;
+}
+
+.right a {
+    color: #beb8b3;
+    display: inline;
+    flex: 45%;
+}
+
+.right label:nth-child(5) {
+    margin-top: 30px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.right button {
+    color: #d6d6d6;
+    background-color: #000000;
+    flex: 45%;
+    padding: 8px 24px;
+    border-radius: 24px;
+    font-weight: bold;
+} 
