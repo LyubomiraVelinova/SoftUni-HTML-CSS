@@ -1,0 +1,74 @@
+:root {
+    --sec-bg: rgb(247, 247, 247);
+    --services-color: rgb(164, 197, 56);
+    --btn:rgb(164, 197, 57);
+}
+
+body {
+    max-width: 1400px;
+    height: 100vh;
+    margin: 3rem auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+header .green {
+    color: var(--services-color);
+}
+
+header h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+header h3 {
+    color: rgb(161, 161, 161);
+    font-weight: 500;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2rem;
+    margin: 5rem 8rem;
+}
+
+/* Sections styling */
+
+.section {
+    background-color: var(--sec-bg);
+}
+
+.section div {
+    padding: 1.5rem;
+}
+
+.section div p {
+    line-height: 2;
+}
+
+.section .section__title {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.section .section__img {
+    width: 100%;
+}
+
+.section .section__text {
+    color: gray;
+}
+
+.section .section__btn {
+    background-color: var(--btn);
+    border: none;
+    color: white;
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
