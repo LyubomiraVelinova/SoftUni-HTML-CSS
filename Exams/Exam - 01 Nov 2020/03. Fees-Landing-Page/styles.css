@@ -1,0 +1,27 @@
+/* Main styling */
+body {
+
+}
+
+/* Header styling */
+header {
+    display: flex;
+    margin-inline: 6rem;
+    justify-content: space-between;
+}
+
+.header__img {
+    width: 5%;
+}
+
+.nav__list {
+    display: flex;
+    gap: 12px;
+    text-decoration: none;
+}
+
+
+.nav__list a {
+    text-decoration: none;
+    color: rgb(103, 102, 129);
+}
