@@ -1,8 +1,4 @@
 @media (max-width: 600px) {
-    header {
-        padding: 0;
-    }
-
     header nav {
         flex-direction: column;
     }
@@ -48,6 +44,7 @@
 
     .team-description ul {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 35px;
