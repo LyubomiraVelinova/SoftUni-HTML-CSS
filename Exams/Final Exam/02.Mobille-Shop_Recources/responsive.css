@@ -1,0 +1,109 @@
+@media (max-width: 600px) {
+
+/* Sofa section */
+
+    .navbar-link {
+        display: none;
+    }
+
+    .home-navbar1 {
+        justify-content: flex-start;
+    }
+
+    .home-header {
+        padding: 12px;
+    }
+    
+    .home-container {
+        padding-top: 48px;
+    }
+
+    .navbar-logo-title {
+        margin: 0px 12px;
+    }
+
+    .input {
+        display: none;
+    }
+
+    .home-hero1 {
+        flex-direction: column;
+    }
+
+    .home-container03 {
+        align-items: center;
+        padding-block: 16px;
+    }
+
+/* Categories section */
+
+    .home-cards-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0px;
+    }
+
+    .max-width-container {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+    .category-card-image {
+        width: 270px;
+        height: 250px;
+    }
+
+    .section-heading-section-heading {
+        margin-bottom: 34px;
+    }
+
+    .section-container {
+        padding-top: 24px;
+        flex-direction: column;
+    }
+
+    .home-text23 {
+        margin-bottom: 40px;
+    }
+
+    .home-left4 {
+        padding: 30px 0px;
+    }
+
+    .home-text30 {
+        width: 100%;
+    }
+
+    .home-content {
+        margin: 0 0 20px 0;
+    }
+
+    .home-image6 {
+        width: 100%;
+    }
+
+    .home-main {
+        padding-bottom: 40px;
+    }
+
+/* Blog container */
+
+    .home-container08 {
+        flex: 1 0 100%;
+        width: auto;
+        flex-direction: column;
+    }
+
+/* Footer */
+
+    .home-footer1 {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding-top: 0px;
+        padding: 40px 24px 20px 24px;
+    }
+
+    .home-links-container {
+        flex-direction: column;
+    }
+}
